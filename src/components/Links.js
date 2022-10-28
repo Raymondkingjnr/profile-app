@@ -29,8 +29,16 @@ function Links() {
       </div>
 
       <div className="logos">
-        <img src="./images/download.jpeg" alt="" />
-        <AiFillGithub style={gitStyle} />
+        <button className="logo-btn slack">
+          <a href="">
+            <img src="./images/download.jpeg" alt="" id="slack" />
+          </a>
+        </button>
+        <button className="logo-btn">
+          <a href="https://github.com/Raymondkingjnr">
+            <AiFillGithub style={gitStyle} />
+          </a>
+        </button>
       </div>
     </article>
   );
