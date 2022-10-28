@@ -1,34 +1,36 @@
 import React from "react";
-import data from "../../src/data";
 import { AiFillGithub } from "react-icons/ai";
 
 function Links() {
-  console.log(data);
+  const gitStyle = { fontSize: "1.5rem" };
   return (
     <article className="links">
       <div className="btns">
         <button id="twitter">
-          <a href="">Twitter links</a>
+          <a href="https://twitter.com/ArihamSK">Twitter links</a>
         </button>
         <button id="btn__zuri">
-          <a href="">Zuri Team</a>
+          <a href="https://training.zuri.team/">Zuri Team</a>
         </button>
         <button id="books">
-          <a href="">Zuri books</a>
+          <a href="http://books.zuri.team/">Zuri books</a>
         </button>
         <button id="book__python">
-          <a href="">Zuri Pyhton</a>
+          <a href="https://books.zuri.team/">Zuri Pyhton</a>
         </button>
         <button id="pitch">
-          <a href="">Background Check For Colors</a>
+          <a href="https://background.zuri.team/">
+            Background Check For Colors
+          </a>
         </button>
         <button id="book__design">
-          <a href="">Design Books</a>
+          <a href="https://books.zuri.team/design-rules">Design Books</a>
         </button>
       </div>
 
       <div className="logos">
-        <AiFillGithub />
+        <img src="./images/download.jpeg" alt="" />
+        <AiFillGithub style={gitStyle} />
       </div>
     </article>
   );

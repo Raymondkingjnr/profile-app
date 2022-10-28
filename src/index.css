@@ -40,7 +40,6 @@
   list-style: none;
   color: rgb(67, 61, 61);
   padding: 10px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btns {
@@ -58,4 +57,40 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+}
+.logos {
+  align-items: center;
+  margin-top: 2rem;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.logos img {
+  width: 20px;
+}
+.footer-main {
+  width: 75%;
+  margin: 5rem auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.footer-span {
+  color: red;
+  font-size: 2rem;
+}
+.line {
+  color: #bcbcbc;
+}
+.footer p {
+  color: #667085;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font: inter;
 }

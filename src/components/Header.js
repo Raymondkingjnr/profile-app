@@ -2,7 +2,7 @@ import React from "react";
 import { MdOutlineNextPlan } from "react-icons/md";
 
 function Header() {
-  const style = { marginTop: "2rem", fontSize: "30px" };
+  const style = { marginTop: "3rem", fontSize: "30px", color: "#bcbcbc" };
   return (
     <header>
       <div className="header-div" id="profile_img">
